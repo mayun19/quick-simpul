@@ -75,7 +75,7 @@ const InputTask = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href={undefined}
                             className="block p-2 text-[#EB5757] font-semibold text-sm">
                             Delete
                           </a>
